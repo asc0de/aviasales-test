@@ -7,6 +7,10 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import reducers from './reducers';
 
+// Polyfills
+import 'promise-polyfill/src/polyfill';
+import 'whatwg-fetch';
+
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
