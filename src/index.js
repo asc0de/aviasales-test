@@ -10,6 +10,7 @@ import reducers from './reducers';
 // Polyfills
 import 'promise-polyfill/src/polyfill';
 import 'whatwg-fetch';
+import flexibility from 'flexibility';
 
 import './index.css';
 import App from './App';
@@ -27,3 +28,4 @@ ReactDOM.render(
     document.getElementById('root')
 );
 registerServiceWorker();
+flexibility(document.documentElement);

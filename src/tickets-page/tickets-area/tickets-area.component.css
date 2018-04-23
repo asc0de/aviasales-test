@@ -1,0 +1,4 @@
+.tickets-area-container {
+    -js-display: flex;
+    flex: 1 1 100%;
+}

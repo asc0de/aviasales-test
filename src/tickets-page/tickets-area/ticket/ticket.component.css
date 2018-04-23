@@ -1,0 +1,11 @@
+.ticket-container {
+    min-width: 360px;
+    -js-display: flex;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.ticket-container:last-child {
+    margin-bottom: 0;
+}

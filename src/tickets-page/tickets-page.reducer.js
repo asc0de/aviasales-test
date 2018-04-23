@@ -1,11 +1,15 @@
 import { TICKETS_RECEIVED } from './tickets-page.actions';
 
-export default function TicketsPageReducer(state = {}, action) {
+const initialState = {
+    tickets: []
+};
+
+export default function TicketsPageReducer(state = initialState, action) {
     switch(action.type) {
         case TICKETS_RECEIVED:
-        console.log(action.state)
             return {
-                ...action.state
+                ...state,
+                tickets: action.state || []
             }
         default:
             return state;
