@@ -1,0 +1,4 @@
+.tickets-page-container {
+    -js-display: flex;
+    display: flex;
+}

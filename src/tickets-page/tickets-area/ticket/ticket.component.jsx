@@ -6,6 +6,7 @@ class Ticket extends Component {
         return (
             <div className={'ticket-container'}>
                 <span>{this.props.ticket.destination_name}</span>
+                <span>{this.props.ticket.stops}</span>
                 <span>{this.props.ticket.price}</span>
             </div>
         )

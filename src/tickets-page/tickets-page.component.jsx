@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import getTickets from './tickets-page.service';
 import TicketsArea from './tickets-area/tickets-area.container';
+import TicketFilters from './ticket-filters/ticket-filters.component';
+import './tickets-page.component.css';
 
 class TicketsPage extends Component {
     componentDidMount() {
@@ -10,7 +12,8 @@ class TicketsPage extends Component {
     }
     render() { 
         return (
-            <div>
+            <div className={'tickets-page-container'}>
+                <TicketFilters />
                 <TicketsArea/>
             </div>
         )
