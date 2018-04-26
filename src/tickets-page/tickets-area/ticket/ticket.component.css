@@ -1,4 +1,4 @@
-.ticket-container {
+.at-ticket-container {
     min-width: 360px;
     -js-display: flex;
     display: flex;
@@ -6,6 +6,6 @@
     margin-bottom: 0.5em;
 }
 
-.ticket-container:last-child {
+.at-ticket-container:last-child {
     margin-bottom: 0;
 }

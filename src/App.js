@@ -1,15 +1,10 @@
-import React, { Component } from 'react';
-import TicketsPage from './tickets-page/tickets-page.container';
-import './App.css';
+import React, { Component } from "react";
+import TicketsPage from "./tickets-page/tickets-page.container";
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <TicketsPage/>
-      </div>
-    );
-  }
+    render() {
+        return <TicketsPage />;
+    }
 }
 
 export default App;

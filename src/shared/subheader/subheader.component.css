@@ -1,0 +1,10 @@
+.at-subheader {
+    text-align: start;
+    color: #5d5d5d;
+    text-transform: uppercase;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    font-size: 0.9em;
+    padding-left: 2px;
+    padding-right: 2px;
+}
