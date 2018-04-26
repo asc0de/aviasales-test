@@ -3,7 +3,7 @@ import './transfer-filter.component.css';
 
 class TransferFilter extends Component {
     onCheckboxChange(e) {
-        const checkboxValue = parseInt(e.target.value);
+        const checkboxValue = parseInt(e.target.value, 10);
         if (checkboxValue === -1) {
             this.props.setAllTransfers(e.target.checked); 
             return;

@@ -7,7 +7,7 @@ class Ticket extends Component {
             <div className={'ticket-container'}>
                 <span>{this.props.ticket.destination_name}</span>
                 <span>{this.props.ticket.stops}</span>
-                <span>{this.props.ticket.price}</span>
+                <span>{this.props.ticket.price.toFixed(2)}</span>
             </div>
         )
     }
