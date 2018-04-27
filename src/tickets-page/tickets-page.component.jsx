@@ -13,7 +13,9 @@ class TicketsPage extends Component {
     render() {
         return (
             <div className={"at-tickets-page-container"}>
-                <TicketFilters />
+                <div>
+                    <TicketFilters />
+                </div>
                 <TicketsArea />
             </div>
         );

@@ -2,3 +2,13 @@
     -js-display: flex;
     flex: 1 1 100%;
 }
+
+.at-tickets-area-searching {
+    flex: 1 1 100%;
+    width: 70vw;
+    -js-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
