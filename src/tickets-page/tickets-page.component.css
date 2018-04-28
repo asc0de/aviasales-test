@@ -2,3 +2,12 @@
     -js-display: flex;
     display: flex;
 }
+
+@media (max-width: 1060px) {
+    .at-tickets-page-container {
+        flex-direction: column;
+    }
+    .at-tickets-page-container .at-filters-wrapper {
+        align-self: center;
+    }
+}

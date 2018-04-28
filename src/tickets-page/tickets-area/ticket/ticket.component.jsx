@@ -24,6 +24,7 @@ class Ticket extends Component {
                         />
                     </div>
                     <div className={"at-ticket-info"}>
+                        <div className={"at-ticket-info-labels"}>Откуда</div>
                         <div className={"at-ticket-info-stats"}>
                             <span>{this.props.ticket.departure_time}</span>
                             <span>
@@ -53,6 +54,7 @@ class Ticket extends Component {
                                 <i className="material-icons">flight</i>
                             </div>
                         </div>
+                        <div className={"at-ticket-info-labels"}>Куда</div>
                         <div className={"at-ticket-info-stats"}>
                             <span>{this.props.ticket.arrival_time}</span>
                             <span>

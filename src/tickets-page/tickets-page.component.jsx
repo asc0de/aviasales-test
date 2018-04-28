@@ -13,7 +13,7 @@ class TicketsPage extends Component {
     render() {
         return (
             <div className={"at-tickets-page-container"}>
-                <div>
+                <div className={"at-filters-wrapper"}>
                     <TicketFilters />
                 </div>
                 <TicketsArea />
